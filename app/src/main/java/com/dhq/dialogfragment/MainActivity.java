@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
                         });
                     }
                 })
+                .setDimAmount(0.5f)
                 .setShowBottom(true)
                 .show(getSupportFragmentManager());
     }
